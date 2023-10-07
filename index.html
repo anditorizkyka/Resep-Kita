@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins&display=swap" rel="stylesheet">
+        <title>Recipe-Kita.com</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/dist/output.css" rel="stylesheet">
+        <style>
+            .font-display {
+                font-family: Mona Sans ,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+
+            }
+        
+        </style>
+    </head>
+    <body class="text-gray-600 font-body">
+
+        <div class=""> 
+            <div class="inline">
+                <div class="text-right bg-orange-500 w-full fixed z-10 "> 
+                    <div class="flex justify-between items-center">
+                        <h1 class="font-bold ml-16 text-cente text-3xl text-white uppercase p-4 ">
+                            <a href="/"><img src="/dist/img/RESEP KITA-PhotoRoom.png-PhotoRoom.png" class="w-56"></IMG></a>
+                        </h1>
+                        <div class="px-4 cursor-pointer md:hidden transition ease-linear duration-500" id="menu">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                              </svg>
+                              
+                        </div>
+                        <ul class="text-slate-200 md:items-center text-lg hidden md:flex md:justify-end w-full">
+                            <li class=" font-bold">
+                                <a href="" class="p-3 ">
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li class=" ">
+                                <a href="" class=" p-3">
+                                    <span>About</span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="" class=" p-3">
+                                    <span>Contact</span>
+                                </a>
+                            </li>
+                            <li class="ml-10">
+                               <input type="text" class="rounded-lg text-slate-600 self-stretch w-48 text-xs h-8 p-2" placeholder="🔍Masukan nama makanan">
+                            </li>
+                            <li class="ml-8">
+                                <a href="" class=" p-3">
+                                    <span>Login</span>
+                                </a>
+                            </li>
+                            <li class="mr-14">
+                                <a href="" class=" p-3">
+                                    <span>Sign Up</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="text-slate-200 text-sm hidden z-10 md:hidden bg-black/50 w-full" id="list">
+                        <li class="mb-3 mt-2 font-bold">
+                            <a href="" class="p-3 ">
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="mb-3 ">
+                            <a href="" class=" p-3">
+                                <span>About</span>
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="" class=" p-3">
+                                <span>Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <section class="introduction">
+
+            </section>
+
+            <main class="px-16 pt-40 bg-gray-100  ">
+                <header>
+                    <h2 class="text-gray-700 text-4xl font-semibold">Halo, Mau masak apa hari ini?</h2>
+                    <h3 class="w-[510px] text-lg font-light font-serif italic mt-4"><blockquote>"Bahan yang paling tak terpisahkan dari semua masakan rumah yang enak ialah
+                        cinta untuk orang yang memakannya"<span class="font-semibold">--Shopia Loren</span></blockquote></h3>
+                </header>
+
+                <div>
+                    <div class="flex justify-end">
+                        <a href="" class="bg-slate-500 text-slate-100 btn">
+                            <span>Filter kategori</span>
+                        </a>
+                    </div>
+                    <h4 class="font-semibold mt-12 pb-2 border-b border-gray-200">Latest Recipes</h4>
+
+                    <div class="mt-8 grid lg:grid-cols-3 gap-10">
+                        <!-- Cards go here -->
+                        <div class="card hover:shadow-lg">
+                            <img src="dist/img/ramen.jpg" alt="" class="w-full h-32 sm:h-48 object-cover">
+                            <div class="m-4">
+                                <span class="font-bold">Ramen Kebumen</span>
+                                <span class="block text-gray-500 text-sm">Recipe by Dito</span>
+                            </div>
+                            <div class="badge">
+                                <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <span class="m-auto">15 Minutes</span>
+                            </div>
+                        </div>
+
+                        <div class="card hover:shadow-lg">
+                            <img src="dist/img/bakso.jpg" alt="" class="w-full h-32 sm:h-48 object-cover">
+                            <div class="m-4">
+                                <span class="font-bold">Bakso Aceh</span>
+                                <span class="block text-gray-500 text-sm">Recipe by Dito</span>
+                            </div>
+                            <a href=""></a>
+                            <div class="badge">
+                                <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <span class="m-auto">15 Minutes</span>
+                            </div>
+                        </div>
+
+                        <div class="card hover:shadow-lg">
+                            <img src="dist/img/mieayam.jpg" alt="" class="w-full h-32 sm:h-48 object-cover">
+                            <div class="m-4">
+                                <span class="font-bold">Mie ayam Nias</span>
+                                <span class="block text-gray-500 text-sm">Recipe by Dito</span>
+                            </div>
+                            <div class="badge">
+                                <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <span class="m-auto">15 Minutes</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h4 class="font-bold mt-12 pb-2 border-b  border-gray-200">Most Popular</h4>
+
+                    <div class="mt-8">
+                        <!-- Cards Go here -->
+
+                    </div>
+
+                    <div class="flex justify-center">
+                        <div class="btn bg-slate-600 text-slate-200 hover:shadow-inner hover:scale-125 transition ease-out">Load more</div>
+
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <script src="/dist/index.js"></script>
+    
+    </body>
+</html>
